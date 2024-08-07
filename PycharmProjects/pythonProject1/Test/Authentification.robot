@@ -1,5 +1,8 @@
 *** Settings ***
 Library    squash_tf.TFParamService
+Library    SquashTMLibrary    https://quality.cloud-prios.fr
+Suite Setup    Connect To Squash TM    Prios    123456789
+
 Library    SeleniumLibrary    run_on_failure=Capture Page Screenshot
 Library    OperatingSystem
 
