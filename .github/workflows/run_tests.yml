@@ -3,7 +3,7 @@ name: Run Robot Framework tests
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -25,4 +25,4 @@ jobs:
 
       - name: Run Robot Framework tests
         run: |
-          robot /path/to/robot/tests
+          robot Test/Authentification.robot
