@@ -1,5 +1,5 @@
 # Automation priority: 1
-# Test case importance: Low
+# Test case importance: Very high
 *** Settings ***
 Resource	squash_resources.resource
 
