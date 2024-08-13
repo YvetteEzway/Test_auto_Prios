@@ -26,6 +26,7 @@ Authentification
 	And L'utilisateur saisit "Ezw@171M" dans le champ de texte pour le mot de passe
 	And L'utilisateur clique sur le bouton de connexion
 	Then L'utilisateur est redirigé vers la page d'accueil
+	Given TEST LF2
 	Given testtt "2"
 
 	[Teardown]	Test Teardown
