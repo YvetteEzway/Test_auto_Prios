@@ -20,11 +20,12 @@ Test Teardown
 Authentification
 	[Setup]	Test Setup
 
-	When L'utilisateur saisit "prios.qa1@prios.fr" dans le champ de texte pour l'email
 	Given L'utilisateur est sur la page de connexion
+	When L'utilisateur saisit "prios.qa1@prios.fr" dans le champ de texte pour l'email
 	And L'utilisateur clique sur le bouton valider
 	And L'utilisateur saisit "Ezw@171M" dans le champ de texte pour le mot de passe
 	And L'utilisateur clique sur le bouton de connexion
 	Then L'utilisateur est redirigé vers la page d'accueil
+	Given testtt
 
 	[Teardown]	Test Teardown
